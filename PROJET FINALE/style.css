@@ -1,0 +1,197 @@
+body{
+    background-color: rgb(222,243,246);
+    scroll-behavior: smooth;
+}
+/*   PARTIE 1*/
+header{
+    background-color: rgb(217, 217, 217);
+    padding: 1%;
+}
+ul span{
+    color: orange;
+}
+a{
+    text-decoration: none;
+    color:black
+}
+li{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-family: bold;
+    margin-right: 4%;
+    padding: 1%;
+    border: 1px solid black;
+    background-color: azure;
+}
+header li:hover{
+    background-color: orange;
+    color:blue;
+}
+a:hover{
+    color: red;
+}
+#premier{
+    margin-left: 0.1%;
+    margin-right: 22%;
+    padding:1%;
+    border: none;
+}
+#premier:hover{
+    background-color:azure;
+}
+/*   PARTIE  2*/
+#ENVIRON{
+    background-color:wheat;
+    width: 100%;
+    height: 600px;
+}
+h1{
+    text-align: center;
+    margin-top: 2%;
+    background-color:gray;
+}
+#image{
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+    height: 80%;
+}
+#image img{
+    border-radius: 20%;
+}
+#text{
+    float: right;
+    width: 50%;
+    margin-right: 5%;
+}
+#text .style{
+    color: blue;
+}
+#text li{
+    border: none;
+    background-color: inherit;
+}
+#text #changer{
+    margin-left: 37%;
+}
+/*parite3*/
+#COMPETENCE{
+      background-color: rgb(151, 226, 245);
+}
+#divone {
+    width: 60%;
+    justify-content: space-between;
+    display: inline-flex;
+    margin-left: 20%;
+}
+#divtwo{
+    width: 60%;
+    justify-content: space-between;
+    display: inline-flex;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+#divthree{
+    width: 60%;
+    justify-content: space-between;
+    display: inline-flex;
+    margin-left: 46%;
+    margin-top: 5%;
+}
+/* PARTIE 4*/
+#EDUCATION h1{
+    margin-top: 0;
+}
+#EDUCATION{
+   display: block;
+   background-color: rgb(216, 252, 238);
+   overflow: hidden;
+}
+.education{
+    float: left;
+    width: 20%;
+    height: 200px;
+    margin-left: 12%;
+}
+.ensa{
+    float: right;
+    background-color:inherit;
+    width: 50%;
+    margin-right:15%;
+    height: 200px;
+
+}
+.spanimg{
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+}
+.spantext{
+    color: green;
+}
+/*PARITE 5*/
+
+#EXEPERIENCE{
+  background-color: rgb(97, 190, 60);
+  margin-top: 3%;
+  overflow: hidden;
+}
+#EXEPERIENCE h1{
+    margin-top: 0%;
+
+}
+#EXEPERIENCE figure{
+    float: left;
+    width: 20%;
+    background-color:inherit ;
+    margin-left: 12%;
+}
+#EXEPERIENCE p{
+       float: right;
+       background-color:inherit ;
+       font-weight: bold;
+       font-size: 20px;
+       margin-right: 5%;
+       width: 60%;
+}
+/*PARTIE 6*/
+#CONTACT{
+    background-color: rgb(16, 190, 212);
+    overflow: hidden;
+         
+}
+#CONTACT h1{
+    margin-top: 0%;
+}
+#divleft{
+    float: left;
+    width: 40%;
+    margin-left: 10%;
+}
+#divright{
+    float: right;
+    width:  40%;
+}
+input{
+    display: block;
+    margin-bottom: 2%;
+    width: 70%;
+    height: 40px;
+}
+#five{
+    width: 20%;
+    margin-left: 51%;
+    color:rgb(124, 175, 124);
+}
+#five:hover{
+    background-color: rgb(0, 245, 233);
+}
+/* DERNIER PARTIE FOOTER */
+footer{
+    background-color: black;
+}
+footer p{
+    text-align: center;
+}
+/*CSS EST FINI*/
